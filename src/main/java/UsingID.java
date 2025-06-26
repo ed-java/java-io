@@ -20,7 +20,7 @@ public class UsingID {
 
             if (fileCreated || file.exists()) {
                 OutputStream output = new FileOutputStream(file);
-                output.write("Olá mundo IO\nMundo IO HERE".getBytes("UTF-8"));
+                output.write("Olá mundo IO\nMundo IO HERE\n".getBytes("UTF-8"));
                 output.close();
                 System.out.println("Arquivo escrito com sucesso.");
             }
